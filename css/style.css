@@ -24,12 +24,14 @@
 }
 .banner-sub
 {
-    margin: 15%;
-    padding:50px;
-    margin-top:220px;
+   margin: 15%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 200px;
     background-color: whitesmoke;
-   text-align: center;
-   font-size: x-large;
+    text-align: center;
+    font-size: x-large;
+    /* width: 100%;*/
 
    
 }
@@ -88,7 +90,7 @@
 }
 .edu-sub-main-img
 {
-    height: 55vh;
+    height: 50vh;
     width:100%;
 }
 .edu-sub-main-content
@@ -109,6 +111,7 @@
     flex-direction: column;
     margin-top:50px;
     margin-bottom: 50px;
+    height: 120vh;
   
 }
 .project-main-img
@@ -187,7 +190,7 @@
 .sub0
 {
     
-    height: 100vh;
+    height: 50vh;
     
     width: 100%;
     font-family: 'Dosis', sans-serif;
@@ -213,6 +216,38 @@
 {
     display: flex;
     flex-direction: column;
+}
+.line-hor
+{
+    display: none;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.contact-img
+{
+    background-image: url(bg1.jpg);
+    width: 100%;height:100%;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+.contact-sub
+{
+    margin: 15%;
+    padding:50px;
+    margin-top:220px;
+    background-color: whitesmoke;
+   text-align: center;
+   font-size: x-large;
+
+   
+}
+.banner-sub h6{
+    font-family: 'Dosis', sans-serif;
+
 }
 @media only screen and (min-width:1200px)
 {
@@ -261,5 +296,9 @@
             width: 100%;
             height: 50vh;
         }
+        .line-hor
+{
+    display: flex;height: 15vh;background-color: slategray;margin-bottom: 100px;
+}
         
 }
