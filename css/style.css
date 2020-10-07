@@ -80,7 +80,7 @@
 .edu-sub
 {
     width:100%;
-    height: 80vh;
+    height: 60vh;
 }
 .edu-sub-main
 {
@@ -90,7 +90,7 @@
 }
 .edu-sub-main-img
 {
-    height: 50vh;
+    height: 35vh;
     width:100%;
 }
 .edu-sub-main-content
@@ -111,18 +111,18 @@
     flex-direction: column;
     margin-top:50px;
     margin-bottom: 50px;
-    height: 120vh;
+    height: 110vh;
   
 }
 .project-main-img
 {
-    height: 60vh;
+    height: 30vh;
     width:100%;
     
 }
 .project-main-img1
 {
-    height: 60vh;
+    height: 30vh;
     width:100%;
     
 }
@@ -173,7 +173,7 @@
     display: flex;
     flex-direction: column;
     
-    height: 100vh;
+    height: 50vh;
     width: 100%;
     font-family: 'Dosis', sans-serif;
 }
@@ -181,7 +181,7 @@
 .sub1
 {
     
-    height: 100vh;
+    height: 50vh;
     width: 100%;
     font-family: 'Dosis', sans-serif;
     text-align: center;  
@@ -190,7 +190,7 @@
 .sub0
 {
     
-    height: 50vh;
+    height: 20vh;
     
     width: 100%;
     font-family: 'Dosis', sans-serif;
@@ -201,9 +201,7 @@
 .sub2
 {
     
-    height: 50vh;
-    width: 100%;
-    font-family: 'Dosis', sans-serif;
+  display: none;
 }
 
 .sub-a{
@@ -267,6 +265,12 @@
         .edu-sub-main-img{
             height: 35vh;
         }
+        .project-main-img1
+      {
+    height: 60vh;
+    width:100%;
+    
+      }
         .about-sub{
             
             padding-left: 200px;
@@ -299,6 +303,14 @@
         .line-hor
 {
     display: flex;height: 15vh;background-color: slategray;margin-bottom: 100px;
+}
+.sub2{
+
+    height: 100vh;
+    width: 100%;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;  
+    line-height: 1.5em; 
 }
         
 }
