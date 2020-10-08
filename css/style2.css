@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Roboto+Slab:wght@300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+    
+}
+/* banner section
+Contains two div 
+1. Image
+2. For Space
+Watch image for background and Name of the company
+*/
+.banner-container{
+    display: flex;
+    
+    flex-direction: column-reverse;
+ height: 100vh;
+ width:100%;
+ background-image: url('Watch6.jpg');
+ background-size: cover;
+ background-position: center;
+}
+/*second banner*/
+/*last-container about us*/
+.contact-container
+{
+    display: flex;
+    flex-direction: column;
+ height: 100vh;
+ width:100%;
+ background-image: url(Watch7.jpg);
+ background-size: cover;
+ background-position: center;
+ color: black;
+}
+
+
+/*end of about us*/
+.next-banner-container{
+    display: flex;
+    color: white;
+    flex-direction: column-reverse;
+ height: 100vh;
+ width:100%;
+ background-image: url('Watch8.jpg');
+ background-size: cover;
+ background-position: center;
+}
+/*end of second banner*/
+.banner-sub1
+{
+    height: 50vh;
+    width:100%;
+   background-color: transparent;
+   
+}
+.banner-sub2
+{
+    height: 50vh;
+    width:100%;
+   background-color: transparent;
+    padding: 100px;
+    text-align: center;
+}
+
+/* End of banner section*/
+.banner-sub21{
+    height: 50vh;
+    width:100%;
+   background-color: transparent;
+    line-height: 2rem;
+    text-align: center;
+
+}
+/* section second  about Company*/
+.about-company-container
+{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    /*background-color:gainsboro;*/
+    background-color: black;
+
+}
+.about-company-sub1
+{
+    color: white;
+    padding-top: 100px; 
+    text-align: center;
+}
+.about-company-sub1 h1{
+    font-size: 300%;
+}
+.about-company-container a
+{
+    text-decoration: none;
+    border: 1px ridge white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    margin-top: 20px;
+    color: white;
+}
+.about-company-container a:hover{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+.about-company-sub2
+{
+    margin-top: 10px;
+    font-family: 'Dosis', sans-serif;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+/*end of the company info*/
+/* start of the product*/
+.product-container
+{
+   display: flex;
+   flex-direction: column;
+  background-color: black;
+  color: white;
+   height: 20vh;
+}
+.product-container div h1{
+    font-size: 300%;
+    text-align: center;
+    margin-top: 40px;
+    padding-bottom: 10px;
+    
+}
+.main-product
+{
+    display: flex;
+    flex-direction: column; 
+    background-color: black;
+}
+.sub-product
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.sub-head
+{
+    margin-top: 10px; 
+    text-align: center; 
+    color: white ;
+    font-weight: 100;
+    margin-bottom: 5px;
+}
+.sub-img
+{
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+.product-context
+{
+    color: white; 
+    text-align: center;
+    line-height: 1.7em;
+    margin: 40px;
+    margin-top: 30px;
+    font-weight: 100;
+}
+.product-context a{
+    text-decoration: none;
+    color: white;
+    border: 1px ridge white;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    margin-top: 30px;
+}
+.product-context a:hover{
+    background-color: white;
+    color:black;
+    font-weight: bold;
+}
+.product-context h1
+{
+    margin-bottom: 15px;
+}
+/*end of the prduct*/
+/*Review Section*/
+.review-sub1{
+    margin-left:20px;margin-top: 30px;text-align: center;margin-right: 40px;
+}
+.review-sub1-h3{
+    margin-top: 10px;
+    text-align: center; 
+    letter-spacing: 0.1rem;
+}
+/*End of Review Section*/
+@media only screen and (min-width:1200px)
+{
+    .banner-container{
+        flex-direction: row;
+    }
+    .contact-container
+    {
+        flex-direction: row;
+    }
+    .next-banner-container
+    {
+        flex-direction: row;
+        color:white;
+    }
+    .banner-sub1{
+        height: 100vh;
+        background-position: center;
+    }
+    .banner-sub2{
+        height: 100vh;
+        background-color: transparent;
+        padding-top: 300px;
+        
+    }
+    .banner-sub21{
+        height: 100vh;
+        background-color: transparent;
+        padding-top: 100px;
+    }
+    .about-company-sub1
+    {
+        padding-top: 150px;
+    }
+    .main-product
+    {
+        flex-direction: row;
+       
+    }
+    .sub-product{
+        margin-top: 100px;
+        margin-bottom: 150px;
+    }
+    .sub-img
+    {
+        margin-right: 30px;
+    }
+    .sub-head
+    {
+        margin-right: 30px;
+    }
+    .product-context
+    {
+        margin-top: 140px;
+        margin-bottom: 150px;
+        text-align: unset;
+    }
+    .review-sub
+    {
+        margin-top: 200px;
+    }
+    
+}
